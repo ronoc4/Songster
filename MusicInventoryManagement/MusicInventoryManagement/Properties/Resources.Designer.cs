@@ -59,14 +59,5 @@ namespace MusicInventoryManagement.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        internal static string MusicStorage {
-            get {
-                return ResourceManager.GetString("MusicStorage", resourceCulture);
-            }
-        }
     }
 }

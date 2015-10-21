@@ -83,17 +83,19 @@ namespace MusicInventoryManagement
                 sb.AppendLine(album.ToString());
             }
 
-            File.WriteAllText(Properties.Resources.MusicStorage, sb.ToString());
+            File.WriteAllText("MusicStorage.txt", sb.ToString());
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            StreamReader sr = new StreamReader(Properties.Resources.MusicStorage);
 
-            String line;
+            StreamReader sr = new StreamReader("MusicStorage.txt");
 
-            while ((line = sr.ReadLine()) != null)
+            string line;
+
+            while (!sr.EndOfStream)
             {
+                line = sr.ReadLine();
                 string[] album = line.Split('|');
                 Album toAdd = new Album();
                 toAdd.Artist = album[0];
@@ -101,9 +103,11 @@ namespace MusicInventoryManagement
                 toAdd.Genre = album[2];
                 toAdd.DateAdded = DateTime.Parse(album[3]);
                 toAdd.ImagePath = album[4];
+                Albums.Add(toAdd);
                 
             }
             sr.Close();
+            UpdateList();
         }
     }
 }
