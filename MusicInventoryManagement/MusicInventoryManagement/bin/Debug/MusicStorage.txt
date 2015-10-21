@@ -1,2 +1,4 @@
-Poe|Hello|pop|10/20/2015|C:\Users\RFM\Desktop\Albut Art\Poe_-_Hello.jpg
-GrrrlParty|tonite|rap|10/20/2015|C:\Users\RFM\Desktop\Albut Art\gp - tngnt.jpg
+[0, MusicInventoryManagement.Album]
+[1, MusicInventoryManagement.Album]
+[2, MusicInventoryManagement.Album]
+[3, MusicInventoryManagement.Album]
