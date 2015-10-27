@@ -1,4 +1,4 @@
-[0, MusicInventoryManagement.Album]
-[1, MusicInventoryManagement.Album]
-[2, MusicInventoryManagement.Album]
-[3, MusicInventoryManagement.Album]
+Metalica|Ride|Metal|10/27/2015|C:\Users\Conor\Pictures\Songster\DDB739C5FCA8557E-3EFB772E563DDA42.png
+v|xcxcx|zcxc|10/27/2015|C:\Users\Conor\Pictures\Songster\download (3).jpeg
+cs|hjds|sd|10/27/2015|C:\Users\Conor\OneDrive\Pictures1\Cool Stuff\5e400ef29fa117b28f1ef5bd224732be.jpg
+ssd||edfe|10/27/2015|C:\Users\Conor\OneDrive\Pictures1\Cool Stuff\yXSWXGh.jpg

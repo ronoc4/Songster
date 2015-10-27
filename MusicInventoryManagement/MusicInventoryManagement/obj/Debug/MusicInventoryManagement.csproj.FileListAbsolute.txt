@@ -16,3 +16,12 @@ C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\Musi
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.Form1.resources
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.Properties.Resources.resources
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.csproj.GenerateResource.Cache
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\MusicInventoryManagement.exe.config
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.exe
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.pdb
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\MusicInventoryManagement.exe
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\MusicInventoryManagement.pdb
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.csprojResolveAssemblyReference.cache
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.Form1.resources
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.Properties.Resources.resources
+C:\Users\Conor\Documents\GitHub\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.csproj.GenerateResource.Cache

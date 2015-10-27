@@ -41,8 +41,9 @@
             this.colArtist = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colAlbum = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colGenre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.pctAlbumArt = new System.Windows.Forms.PictureBox();
             this.colDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pctAlbumArt = new System.Windows.Forms.PictureBox();
+            this.btnRemove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctAlbumArt)).BeginInit();
             this.SuspendLayout();
             // 
@@ -148,6 +149,11 @@
             this.colGenre.Text = "Genre";
             this.colGenre.Width = 100;
             // 
+            // colDate
+            // 
+            this.colDate.Text = "Date Added";
+            this.colDate.Width = 89;
+            // 
             // pctAlbumArt
             // 
             this.pctAlbumArt.Location = new System.Drawing.Point(29, 215);
@@ -157,10 +163,16 @@
             this.pctAlbumArt.TabIndex = 10;
             this.pctAlbumArt.TabStop = false;
             // 
-            // colDate
+            // btnRemove
             // 
-            this.colDate.Text = "Date Added";
-            this.colDate.Width = 89;
+            this.btnRemove.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnRemove.Location = new System.Drawing.Point(163, 133);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(95, 40);
+            this.btnRemove.TabIndex = 11;
+            this.btnRemove.Text = "&Remove";
+            this.btnRemove.UseVisualStyleBackColor = false;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // Form1
             // 
@@ -168,6 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(910, 527);
+            this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.pctAlbumArt);
             this.Controls.Add(this.lstInventory);
             this.Controls.Add(this.btnAdd);
@@ -206,6 +219,7 @@
         private System.Windows.Forms.ColumnHeader colGenre;
         private System.Windows.Forms.PictureBox pctAlbumArt;
         private System.Windows.Forms.ColumnHeader colDate;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 

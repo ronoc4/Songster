@@ -19,7 +19,7 @@ namespace MusicInventoryManagement
         }
 #region GlobalVariables
         //Create dictionary of albums with int keys
-        Dictionary<int, Album> Albums = new Dictionary<int, Album>();
+        List<Album> Albums = new List<Album>();
         #endregion
 
 #region EventHandlers
@@ -34,7 +34,7 @@ namespace MusicInventoryManagement
             toAdd.ImagePath = addAlbumArt();
 
             //Adding new album to list of albums
-            Albums.Add(Albums.Count, toAdd);
+            Albums.Add(toAdd);
             UpdateList();
 
         }
@@ -52,7 +52,7 @@ namespace MusicInventoryManagement
             {
                 saveAlbums("MusicStorage.txt");
             }
-            catch (Exception)
+            catch (Exception )
             {
                 //if an exception is caught, we prompt the user for input
                 DialogResult dr = MessageBox.Show(
@@ -121,7 +121,7 @@ namespace MusicInventoryManagement
             //Clear rows 
             lstInventory.Items.Clear();
 
-            foreach (var album in Albums.Values)
+            foreach (var album in Albums)
             {
                 ListViewItem row = new ListViewItem(album.Artist, 1);
                 row.SubItems.Add(album.Title);
@@ -165,16 +165,20 @@ namespace MusicInventoryManagement
                 of.ShowDialog();
                 fileName = of.SafeFileName;
             }
-            //Build a string for the loop
-            StringBuilder sb = new StringBuilder();
+            
+            
 
-            foreach (var album in Albums)
-            {
-                //Add new line with appendlne method, referencing Album class
-                sb.AppendLine(album.ToString());
-            }
+                //Build a string for the loop
+                StringBuilder sb = new StringBuilder();
 
-            File.WriteAllText(fileName, sb.ToString());
+                foreach (Album album in Albums)
+                {
+                    //Add new line with appendlne method, referencing Album class
+                    sb.AppendLine(album.ToString());
+                }
+
+                File.WriteAllText(fileName, sb.ToString());
+            
         }
         
         /// <summary>
@@ -203,7 +207,7 @@ namespace MusicInventoryManagement
             //this string wil hold our line as a string 
             string line;
             //this will be the dictionary key
-            int key = 0;
+            
             //loop while we are not at the end of 
             //our streamreder
             while (!sr.EndOfStream)
@@ -223,14 +227,33 @@ namespace MusicInventoryManagement
                 toAdd.DateAdded = DateTime.Parse(album[3]);
                 toAdd.ImagePath = album[4];
                 //add this album to our dictionary
-                Albums.Add(key, toAdd);
+                Albums.Add(toAdd);
                 //add one to our key
-                key++;
+                
             }
             //close the streamreader so we can overwrite
             //this file with any changes on exit
             sr.Close();
         }
 #endregion
+
+        //Remove row from Listbox by clicking it
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+            txtAlbum.Text = "";
+            txtArtist.Text = "";
+            txtGenre.Text = "";
+
+            //lstInventory.Items.Clear();
+
+            if (lstInventory.FocusedItem.Index > -1)
+            {
+                Albums.RemoveAt(lstInventory.FocusedItem.Index);
+            }
+
+            UpdateList();
+               
+            
+        }
     }
 }
