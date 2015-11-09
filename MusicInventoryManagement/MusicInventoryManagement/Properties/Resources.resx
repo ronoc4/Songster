@@ -117,8 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DiscogsKey" xml:space="preserve">
+    <value>gqDqXKFiOUgjbgIgKAMi</value>
+  </data>
+  <data name="DiscogsSecret" xml:space="preserve">
+    <value>fSmrolLYOwpqVSAWfMlMHpanHnsRhkwf</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="MusicStorage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\musicstorage.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RobiSecret" xml:space="preserve">
+    <value>UXdUM2bKUr</value>
+  </data>
+  <data name="RoviKey" xml:space="preserve">
+    <value>ssuneydsbp6ys2pmvxuskcwu</value>
   </data>
 </root>

@@ -59,5 +59,50 @@ namespace MusicInventoryManagement.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to gqDqXKFiOUgjbgIgKAMi.
+        /// </summary>
+        internal static string DiscogsKey {
+            get {
+                return ResourceManager.GetString("DiscogsKey", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to fSmrolLYOwpqVSAWfMlMHpanHnsRhkwf.
+        /// </summary>
+        internal static string DiscogsSecret {
+            get {
+                return ResourceManager.GetString("DiscogsSecret", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string MusicStorage {
+            get {
+                return ResourceManager.GetString("MusicStorage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UXdUM2bKUr.
+        /// </summary>
+        internal static string RobiSecret {
+            get {
+                return ResourceManager.GetString("RobiSecret", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ssuneydsbp6ys2pmvxuskcwu.
+        /// </summary>
+        internal static string RoviKey {
+            get {
+                return ResourceManager.GetString("RoviKey", resourceCulture);
+            }
+        }
     }
 }

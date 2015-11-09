@@ -30,7 +30,6 @@ namespace MusicInventoryManagement
             Album toAdd = new Album();
             toAdd.Artist = txtArtist.Text;
             toAdd.Title = txtAlbum.Text;
-            toAdd.Genre = txtGenre.Text;
             toAdd.ImagePath = addAlbumArt();
 
             //Adding new album to list of albums
@@ -231,6 +230,6 @@ namespace MusicInventoryManagement
             //this file with any changes on exit
             sr.Close();
         }
-#endregion
+        #endregion
     }
 }
