@@ -59,16 +59,8 @@
       <HintPath>..\packages\FSharp.Data.1.1.9\lib\net40\FSharp.Data.DesignTime.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.4.5.10\lib\net40\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="OAuth2Class, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OAuth2.NET.1.0.1\lib\OAuth2Class.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="OAuth2Client, Version=1.0.3.0, Culture=neutral, PublicKeyToken=e0f410c10d2e7630, processorArchitecture=MSIL">
-      <HintPath>..\packages\OAuth2Client.1.0.3.0\lib\net45\OAuth2Client.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="SimpleOAuth, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -89,7 +81,6 @@
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
@@ -98,6 +89,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Album.cs" />
+    <Compile Include="Artist.cs" />
+    <Compile Include="frmAddNew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddNew.Designer.cs">
+      <DependentUpon>frmAddNew.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConfirm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,16 +103,19 @@
       <DependentUpon>frmConfirm.cs</DependentUpon>
     </Compile>
     <Compile Include="MusicInfo.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="frmAddNew.resx">
+      <DependentUpon>frmAddNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmConfirm.resx">
       <DependentUpon>frmConfirm.cs</DependentUpon>

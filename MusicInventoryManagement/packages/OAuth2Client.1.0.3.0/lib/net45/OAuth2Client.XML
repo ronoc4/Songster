@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>OAuth2Client</name></assembly>
+<members>
+<member name="T:AssemblyInfo">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:OAuth2Client.AuthHandler.OAuth2BearerHandler">
+<summary>
+ This Handler can be supplied to System.Net.HttpClient to pemit it to work against an OAuth2-protected host.
+ It will add the appropriate Authorization header to requests, and will refresh the OAuth2 access token if
+ the request fails due to a 401.
+
+ The storage will be used to gather the secrets and credentials, and will be used to store the credentials
+ if they end up being refreshed.
+</summary>
+</member>
+<member name="M:OAuth2Client.AuthHandler.shouldRefresh(System.Net.Http.HttpResponseMessage)">
+<summary>
+ We should only refresh if we see the OAuth2 WWW-Authenticate in the 401.
+</summary>
+</member>
+<member name="M:OAuth2Client.AuthHandler.collectBearerParams(System.Net.Http.HttpResponseMessage)">
+<summary>
+ Find any &quot;WWW-Authenticate: Bearer&quot; headers in the response.
+</summary>
+</member>
+<member name="M:OAuth2Client.AuthHandler.parseParams(System.String)">
+<summary>
+ Attempt to parse the &quot;x=y, z=q&quot; style parameters from a WWW-Authenticate header
+ In a 401 from an OAuth2 endpoint, WWW-Authenticate might look like this:
+
+    WWW-Authenticate: Bearer realm=&quot;example&quot;, error=&quot;invalid_token&quot;, error_description=&quot;The access token expired&quot;
+
+ See http://tools.ietf.org/html/rfc6750#page-7
+</summary>
+</member>
+<member name="T:OAuth2Client.AuthHandler">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:OAuth2Client.Extensions.File">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:OAuth2Client.Extensions.Http">
+
+</member>
+<member name="M:OAuth2Client.Extensions.HttpClient.HttpClient.WithOAuth2.Static(OAuth2Client.IStorageAsync,System.String,Microsoft.FSharp.Core.FSharpOption{System.Net.Http.HttpClientHandler})">
+<summary>
+ Create a new HttpClient with the Oauth2 auth handler already plugged in.
+ The storage will be used to gather the existing secrets and credentials,
+ and to store any newly refreshed credentials from the OAuth2 host.
+ If no inner handler is specified, a new System.Net.Http.HttpClientHandler
+ will be created to handle requests.
+</summary>
+</member>
+<member name="T:OAuth2Client.Extensions.HttpClient">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:OAuth2Client.Listener">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="">
+
+</member>
+<member name="T:OAuth2Client.Storage">
+
+</member>
+</members>
+</doc>

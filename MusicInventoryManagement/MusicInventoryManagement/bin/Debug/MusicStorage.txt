@@ -1,4 +1,0 @@
-[0, MusicInventoryManagement.Album]
-[1, MusicInventoryManagement.Album]
-[2, MusicInventoryManagement.Album]
-[3, MusicInventoryManagement.Album]

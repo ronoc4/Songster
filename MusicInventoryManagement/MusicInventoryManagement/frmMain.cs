@@ -8,12 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Xml;
 
 namespace MusicInventoryManagement
 {
-    public partial class Form1 : Form
+    public partial class frmMain : Form
     {
-        public Form1()
+        public frmMain()
         {
             InitializeComponent();
         }
@@ -27,14 +28,14 @@ namespace MusicInventoryManagement
         private void btnAdd_Click(object sender, EventArgs e)
         {
 
-            Album toAdd = new Album();
-            toAdd.Artist = txtArtist.Text;
-            toAdd.Title = txtAlbum.Text;
-            toAdd.ImagePath = addAlbumArt();
+            //Album toAdd = new Album();
+            //toAdd.Artist = txtArtist.Text;
+            //toAdd.Title = txtAlbum.Text;
+            //toAdd.ImagePath = addAlbumArt();
 
-            //Adding new album to list of albums
-            Albums.Add(Albums.Count, toAdd);
-            UpdateList();
+            ////Adding new album to list of albums
+            //Albums.Add(Albums.Count, toAdd);
+            //UpdateList();
 
         }
 
@@ -231,5 +232,12 @@ namespace MusicInventoryManagement
             sr.Close();
         }
         #endregion
+
+        private void checkNames(object sender, EventArgs e)
+        {
+            frmAddNew frmAddNew = new frmAddNew();
+            frmAddNew.ShowDialog();
+        }
     }
 }
+    

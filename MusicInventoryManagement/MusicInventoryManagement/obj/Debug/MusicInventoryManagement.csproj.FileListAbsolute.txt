@@ -13,14 +13,12 @@ C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\Musi
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\MusicInventoryManagement.exe
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\MusicInventoryManagement.pdb
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.csprojResolveAssemblyReference.cache
-C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.Form1.resources
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.Properties.Resources.resources
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.csproj.GenerateResource.Cache
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\FSharp.Data.DesignTime.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\FSharp.Data.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\Newtonsoft.Json.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\OAuth2Class.dll
-C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\OAuth2Client.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\SimpleOAuth.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\System.Web.Http.dll
@@ -30,7 +28,6 @@ C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\Musi
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\FSharp.Data.DesignTime.pdb
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\FSharp.Data.DesignTime.xml
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\Newtonsoft.Json.xml
-C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\OAuth2Client.xml
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\SimpleOAuth.pdb
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\SimpleOAuth.xml
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\System.Net.Http.Formatting.xml
@@ -38,3 +35,6 @@ C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\Musi
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\FSharp.Core.xml
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\DiscogsNet.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\DiscogsNet.pdb
+C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmConfirm.resources
+C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmAddNew.resources
+C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmMain.resources

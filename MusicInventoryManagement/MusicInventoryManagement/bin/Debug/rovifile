@@ -1,0 +1,2027 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<searchResponse xmlns="com.rovicorp.metadataservice" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns:meta="com.rovicorp.metadataservice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" meta:id="tul1cpgpsrapp8:gwy:71fhn6">
+  <controlSet>
+    <status>ok</status>
+    <code>200</code>
+    <messages i:nil="true" />
+  </controlSet>
+  <results>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.89721566</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0002567975</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2224428</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  2271196</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0002567975</nameId>
+        </ids>
+        <name>Larkin Poe</name>
+        <isGroup>true</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002532</id>
+            <name>Country</name>
+            <weight>7</weight>
+          </Genre>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>7</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active>
+          <a:string>2010s</a:string>
+        </active>
+        <birth>
+          <date>2010-01-??</date>
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country>United States of America</country>
+        <gender>F</gender>
+        <period />
+        <headlineBio>Southern roots rockers who formed after the Lovell Sisters called it a day in 2009.</headlineBio>
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri>http://api.rovicorp.com/data/v1.1/name/images?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</imagesUri>
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri>http://api.rovicorp.com/data/v1.1/name/similars?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</similarsUri>
+        <moods i:nil="true" />
+        <moodsUri>http://api.rovicorp.com/data/v1.1/name/moods?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</moodsUri>
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri>http://api.rovicorp.com/data/v1.1/name/musicBio?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</musicBioUri>
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri>http://api.rovicorp.com/data/v1.1/name/themes?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</themesUri>
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri>http://api.rovicorp.com/data/v1.1/name/associatedWith?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002567975</associatedWithUri>
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.88178873</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0002321926</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1991583</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P   922753</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0002321926</nameId>
+        </ids>
+        <name>Poe</name>
+        <isGroup>true</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002816</id>
+            <name>Rap</name>
+            <weight>10</weight>
+          </Genre>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active>
+          <a:string>2010s</a:string>
+        </active>
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country>Poland</country>
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002321926</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002321926</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002321926</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.86968005</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001257179</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1145686</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P   179963</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001257179</nameId>
+        </ids>
+        <name>John Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri>http://api.rovicorp.com/data/v1.1/name/memberOf?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001257179</memberOfUri>
+        <images i:nil="true" />
+        <imagesUri>http://api.rovicorp.com/data/v1.1/name/images?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001257179</imagesUri>
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001257179</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001257179</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.8315222</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0003074320</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2729974</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  2776804</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0003074320</nameId>
+        </ids>
+        <name>C. Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002674</id>
+            <name>Jazz</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active>
+          <a:string>2010s</a:string>
+        </active>
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003074320</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003074320</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.8080025</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0000354883</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q   478724</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P   169531</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0000354883</nameId>
+        </ids>
+        <name>Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active>
+          <a:string>1990s</a:string>
+          <a:string>2000s</a:string>
+        </active>
+        <birth>
+          <date />
+          <place>New York, NY</place>
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country>United States of America</country>
+        <gender>F</gender>
+        <period />
+        <headlineBio>NYC singer-songwriter Annie Danielewski's atmospheric dance-pop earned her modern rock fame in the 1990s.</headlineBio>
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri>http://api.rovicorp.com/data/v1.1/name/images?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</imagesUri>
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri>http://api.rovicorp.com/data/v1.1/name/similars?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</similarsUri>
+        <moods i:nil="true" />
+        <moodsUri>http://api.rovicorp.com/data/v1.1/name/moods?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</moodsUri>
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri>http://api.rovicorp.com/data/v1.1/name/musicBio?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</musicBioUri>
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri>http://api.rovicorp.com/data/v1.1/name/themes?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</themesUri>
+        <videos i:nil="true" />
+        <videosUri>http://api.rovicorp.com/data/v1.1/name/videos?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</videosUri>
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri>http://api.rovicorp.com/data/v1.1/name/aliases?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000354883</aliasesUri>
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.78205967</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001205179</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1096314</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P   114960</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001205179</nameId>
+        </ids>
+        <name>Mike Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri>http://api.rovicorp.com/data/v1.1/name/images?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001205179</imagesUri>
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001205179</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001205179</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.78204817</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001585029</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q    46391</amgClassicalId>
+          <amgMovieId>P313943</amgMovieId>
+          <amgPopId>P   179962</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001585029</nameId>
+        </ids>
+        <name>Edgar Allan Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Movies</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000004433</id>
+            <name>Comedy/Spoken</name>
+            <weight>10</weight>
+          </Genre>
+          <Genre>
+            <id>MA0000002521</id>
+            <name>Classical</name>
+            <weight>6</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres>
+          <Genre>
+            <id>D   654</id>
+            <name>Horror</name>
+            <weight>99</weight>
+          </Genre>
+        </movieGenres>
+        <active i:nil="true" />
+        <birth>
+          <date>1809-01-09</date>
+          <place>Boston, MA</place>
+        </birth>
+        <death>
+          <date>1849-10-07</date>
+          <place>Baltimore, MD</place>
+        </death>
+        <country>United States of America</country>
+        <gender />
+        <period>1915-2009</period>
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri>http://api.rovicorp.com/data/v1.1/name/filmography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</filmographyUri>
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri>http://api.rovicorp.com/data/v1.1/name/images?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</imagesUri>
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri>http://api.rovicorp.com/data/v1.1/name/moods?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</moodsUri>
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri>http://api.rovicorp.com/data/v1.1/name/movieStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</movieStylesUri>
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri>http://api.rovicorp.com/data/v1.1/name/collaboratorWith?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</collaboratorWithUri>
+        <compositions i:nil="true" />
+        <compositionsUri>http://api.rovicorp.com/data/v1.1/name/compositions?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;amgmovieid=P313943</compositionsUri>
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7751592</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0002118357</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1891101</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  1135348</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0002118357</nameId>
+        </ids>
+        <name>Poe</name>
+        <isGroup>true</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002118357</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002118357</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002118357</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002118357</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7751406</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001545583</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1423326</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P    19919</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001545583</nameId>
+        </ids>
+        <name>Poe</name>
+        <isGroup>true</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active>
+          <a:string>1970s</a:string>
+        </active>
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001545583</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001545583</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001545583</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001545583</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.76020044</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0002641387</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2297744</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  2344522</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0002641387</nameId>
+        </ids>
+        <name>Evelyn Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002674</id>
+            <name>Jazz</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>F</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002641387</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002641387</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601984</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0000235910</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q   396018</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  1979515</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0000235910</nameId>
+        </ids>
+        <name>Lou Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres i:nil="true" />
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000235910</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri i:nil="true" />
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601981</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0002941630</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2597511</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  2644314</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0002941630</nameId>
+        </ids>
+        <name>Poe Mack</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002816</id>
+            <name>Rap</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002941630</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002941630</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002941630</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.76019764</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0000894521</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q   836520</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  1672924</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0000894521</nameId>
+        </ids>
+        <name>The Poe Boy Family</name>
+        <isGroup>true</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres i:nil="true" />
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0000894521</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri i:nil="true" />
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601976</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0003318100</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2973356</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  3020231</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0003318100</nameId>
+        </ids>
+        <name>Salvatore Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003318100</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003318100</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601973</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001773243</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1571265</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  1094736</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001773243</nameId>
+        </ids>
+        <name>Bobby Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002809</id>
+            <name>R&amp;B</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001773243</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001773243</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.76019675</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0002537831</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2194328</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  2241152</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0002537831</nameId>
+        </ids>
+        <name>Monty Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002537831</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002537831</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002537831</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0002537831</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.760196</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0000942347</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q   870266</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  1649246</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0000942347</nameId>
+        </ids>
+        <name>Roxanne Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres i:nil="true" />
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender i:nil="true" />
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri i:nil="true" />
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri i:nil="true" />
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601946</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001775849</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1573751</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  1131652</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001775849</nameId>
+        </ids>
+        <name>S. Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002816</id>
+            <name>Rap</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active>
+          <a:string>1900s</a:string>
+        </active>
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001775849</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001775849</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001775849</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601939</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0001590165</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  1466821</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P   114959</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0001590165</nameId>
+        </ids>
+        <name>Lord Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002613</id>
+            <name>Pop/Rock</name>
+            <weight>10</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>M</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri i:nil="true" />
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001590165</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri i:nil="true" />
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0001590165</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+    <result>
+      <type>artist</type>
+      <relevance>
+        <code>Score</code>
+        <value>0.7601932</value>
+      </relevance>
+      <availabilties xmlns="com.rovicorp.snrservice" />
+      <id>MN0003057983</id>
+      <messages i:nil="true" />
+      <name>
+        <ids>
+          <amgClassicalId>Q  2713664</amgClassicalId>
+          <amgMovieId i:nil="true" />
+          <amgPopId>P  2760521</amgPopId>
+          <cosmoId i:nil="true" />
+          <nameId>MN0003057983</nameId>
+        </ids>
+        <name>Michelle Lynn Poe</name>
+        <isGroup>false</isGroup>
+        <primaryMedia>Music</primaryMedia>
+        <musicGenres>
+          <Genre>
+            <id>MA0000002532</id>
+            <name>Country</name>
+            <weight>5</weight>
+          </Genre>
+        </musicGenres>
+        <movieGenres i:nil="true" />
+        <active i:nil="true" />
+        <birth>
+          <date />
+          <place />
+        </birth>
+        <death>
+          <date />
+          <place />
+        </death>
+        <country />
+        <gender>F</gender>
+        <period />
+        <headlineBio />
+        <classicalBio i:nil="true" />
+        <classicalBioUri i:nil="true" />
+        <discography i:nil="true" />
+        <discographyUri>http://api.rovicorp.com/data/v1.1/name/discography?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003057983</discographyUri>
+        <filmography i:nil="true" />
+        <filmographyUri i:nil="true" />
+        <followers i:nil="true" />
+        <followersUri i:nil="true" />
+        <groupMembers i:nil="true" />
+        <groupMembersUri i:nil="true" />
+        <memberOf i:nil="true" />
+        <memberOfUri i:nil="true" />
+        <images i:nil="true" />
+        <imagesUri i:nil="true" />
+        <influencers i:nil="true" />
+        <influencersUri i:nil="true" />
+        <similars i:nil="true" />
+        <similarsUri i:nil="true" />
+        <moods i:nil="true" />
+        <moodsUri i:nil="true" />
+        <movieBio i:nil="true" />
+        <movieBioUri i:nil="true" />
+        <musicBio i:nil="true" />
+        <musicBioUri i:nil="true" />
+        <musicCredits i:nil="true" />
+        <musicCreditsUri>http://api.rovicorp.com/data/v1.1/name/musicCredits?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003057983</musicCreditsUri>
+        <songs i:nil="true" />
+        <songsUri>http://api.rovicorp.com/data/v1.1/name/songs?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003057983</songsUri>
+        <musicStyles i:nil="true" />
+        <musicStylesUri>http://api.rovicorp.com/data/v1.1/name/musicStyles?format=xml&amp;apikey=ssuneydsbp6ys2pmvxuskcwu&amp;nameid=MN0003057983</musicStylesUri>
+        <themes i:nil="true" />
+        <themesUri i:nil="true" />
+        <videos i:nil="true" />
+        <videosUri i:nil="true" />
+        <movieStyles i:nil="true" />
+        <movieStylesUri i:nil="true" />
+        <contemporaries i:nil="true" />
+        <contemporariesUri i:nil="true" />
+        <associatedWith i:nil="true" />
+        <associatedWithUri i:nil="true" />
+        <collaboratorWith i:nil="true" />
+        <collaboratorWithUri i:nil="true" />
+        <compositions i:nil="true" />
+        <compositionsUri i:nil="true" />
+        <aliases i:nil="true" />
+        <aliasesUri i:nil="true" />
+        <awards i:nil="true" />
+        <awardsUri i:nil="true" />
+        <web i:nil="true" />
+        <webUri i:nil="true" />
+        <factsheets i:nil="true" />
+        <factsheetsUri i:nil="true" />
+        <schedule i:nil="true" />
+        <scheduleUri i:nil="true" />
+        <credits i:nil="true" />
+        <creditsUri i:nil="true" />
+        <linear i:nil="true" />
+      </name>
+    </result>
+  </results>
+  <totalResultCounts>115</totalResultCounts>
+</searchResponse>

@@ -4,14 +4,10 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Net.Http.Headers;
+using System.Net.NetworkInformation;
 using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Xml;
-using SimpleOAuth;
-using DiscogsNet;
-using DiscogsNet.Api;
+using System.Xml.Linq;
 using System.Security.Cryptography;
 using MusicInventoryManagement.Properties;
 
@@ -20,50 +16,63 @@ namespace MusicInventoryManagement
 {
     class MusicInfo
     {
-        /// <summary>
-        /// This method is uesed to get artist information via a 
-        /// search to the rovi API
-        /// </summary>
-        /// <param name="artistName"></param>
-        /// <returns>a list of XML node lists: artist names, artist IDs and album uris</returns>
-        public static List<XmlNodeList> getArtist(string artistName)
+
+        public static XDocument getXML(Uri address)
         {
-            //this ensures that the uri will not have any spaces in it
-            artistName = artistName.Replace(" ", "+");
+            //build a request of xml data and load it into an xml document oject
+            HttpWebRequest web = (HttpWebRequest)WebRequest.Create(address);
+            HttpWebResponse resp = (HttpWebResponse)web.GetResponse();
+            Stream responseStream = resp.GetResponseStream();
+            XDocument xdoc = XDocument.Load(responseStream);
+            xdoc.Save("rovi2");
+            return xdoc;
+        }
+
+        public static Uri buildArtistUri(string searchterm)
+        {
+            searchterm = searchterm.Replace(" ", "+");
+
             //the URI builder object will be used to construct the webaddress we will send our request to         
             UriBuilder ub = new UriBuilder();
             ub.Scheme = "http";
             ub.Host = "api.rovicorp.com";
             ub.Path = "search/v2.1/music/search";
             //this is used to construct the more complicated portion of the url, putting the seach, key and signature in the correct place
-            ub.Query = string.Format("apikey={0}&sig={1}&query={2}&entitytype=artist&format=xml",Resources.RoviKey, getSignature(), artistName);
+            ub.Query = string.Format("apikey={0}&sig={1}&query={2}&entitytype=artist&format=xml&include=discography&size=10&", Resources.RoviKey, getSignature(), searchterm);
+            return ub.Uri;
+        }
 
-            //build a request of xml data and load it into an xml document oject
-            HttpWebRequest web = (HttpWebRequest)WebRequest.Create(ub.Uri);
-            HttpWebResponse resp = (HttpWebResponse)web.GetResponse();
-            Stream responseStream = resp.GetResponseStream();
-            XmlDocument xml = new XmlDocument();
-            xml.Load(responseStream);
+        /// <summary>
+        /// This method is uesed to get artist information via a 
+        /// search to the rovi API
+        /// </summary>
+        /// <param name="artistName"></param>
+        /// <returns>a list of XML node lists: artist names, artist IDs and album uris</returns>
+        public static List<Artist> getArtistsInfo(string searchTerm)
+        {
+            Uri uri = buildArtistUri(searchTerm);
+            XDocument xdoc = getXML(uri);
+            List<Artist> results = new List<Artist>();
 
-            //store the responses in nodelists based on the name, id and uri for the discography
-            XmlNodeList xmlNames = xml.SelectNodes("//name");
-            XmlNodeList xmlIds = xml.SelectNodes("//id");
-            XmlNodeList xmlDisco = xml.SelectNodes("//discographyUri");
+            var names = xdoc.Descendants()
+                .Where(t => t.Name.LocalName == "name")
+                .Where(p => p.Parent.Name.LocalName == "name");
 
-            //load the results into a genaric list
-            List<XmlNodeList> results = new List<XmlNodeList>();
+            var ids = xdoc.Descendants()
+                .Where(t => t.Name.LocalName == "id")
+                .Where(t => t.Parent.Name.LocalName == "result");
 
-            //add the responses
-            results.Add(xmlNames);
-            results.Add(xmlIds);
-            results.Add(xmlDisco);
+            var infos = xdoc.Descendants()
+                .Where(t => t.Name.LocalName == "headlineBio");
 
-            //save the file for debugging
-            xml.Save("rovifile");
-
-            //retun the results list
+            for (int i = 0; i < ids.Count(); i++)
+            {
+                string nameToAdd = names.ElementAt(i).Value;
+                string idToAdd = ids.ElementAt(i).Value;
+                string infoToAdd = infos.ElementAt(i).Value;
+                results.Add(new Artist(nameToAdd,idToAdd,infoToAdd));
+            }
             return results;
-
         }
 
         /// <summary>

@@ -32,6 +32,8 @@
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOK = new System.Windows.Forms.Button();
             this.lbl1 = new System.Windows.Forms.Label();
+            this.txtInfo = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lstResults
@@ -40,8 +42,9 @@
             this.lstResults.ItemHeight = 25;
             this.lstResults.Location = new System.Drawing.Point(32, 40);
             this.lstResults.Name = "lstResults";
-            this.lstResults.Size = new System.Drawing.Size(500, 354);
+            this.lstResults.Size = new System.Drawing.Size(246, 354);
             this.lstResults.TabIndex = 0;
+            this.lstResults.SelectedIndexChanged += new System.EventHandler(this.lstResults_SelectedIndexChanged);
             // 
             // btnCancel
             // 
@@ -54,7 +57,7 @@
             // 
             // btnOK
             // 
-            this.btnOK.Location = new System.Drawing.Point(391, 418);
+            this.btnOK.Location = new System.Drawing.Point(426, 418);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(141, 57);
             this.btnOK.TabIndex = 2;
@@ -66,21 +69,42 @@
             this.lbl1.AutoSize = true;
             this.lbl1.Location = new System.Drawing.Point(27, 0);
             this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(433, 25);
+            this.lbl1.Size = new System.Drawing.Size(302, 25);
             this.lbl1.TabIndex = 3;
-            this.lbl1.Text = "This is what we found, which did you mean?";
+            this.lbl1.Text = "Which of these did you mean?";
+            // 
+            // txtInfo
+            // 
+            this.txtInfo.Location = new System.Drawing.Point(284, 70);
+            this.txtInfo.Multiline = true;
+            this.txtInfo.Name = "txtInfo";
+            this.txtInfo.ReadOnly = true;
+            this.txtInfo.Size = new System.Drawing.Size(283, 324);
+            this.txtInfo.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(284, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(265, 25);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Selected Artist Description";
             // 
             // frmConfirm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(694, 487);
+            this.ClientSize = new System.Drawing.Size(594, 487);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.lstResults);
             this.Name = "frmConfirm";
             this.Text = "frmConfirm";
+            this.Load += new System.EventHandler(this.frmConfirm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -92,5 +116,7 @@
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnOK;
         private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.TextBox txtInfo;
+        private System.Windows.Forms.Label label1;
     }
 }
