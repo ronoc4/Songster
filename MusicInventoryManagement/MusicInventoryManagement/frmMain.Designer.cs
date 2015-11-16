@@ -37,7 +37,7 @@
             this.colGenre = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colDate = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.pctAlbumArt = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtAlbumInfo = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnRemove = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pctAlbumArt)).BeginInit();
@@ -112,14 +112,14 @@
             this.pctAlbumArt.TabIndex = 10;
             this.pctAlbumArt.TabStop = false;
             // 
-            // textBox1
+            // txtAlbumInfo
             // 
-            this.textBox1.Location = new System.Drawing.Point(771, 506);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(467, 264);
-            this.textBox1.TabIndex = 11;
+            this.txtAlbumInfo.Location = new System.Drawing.Point(771, 506);
+            this.txtAlbumInfo.Multiline = true;
+            this.txtAlbumInfo.Name = "txtAlbumInfo";
+            this.txtAlbumInfo.ReadOnly = true;
+            this.txtAlbumInfo.Size = new System.Drawing.Size(467, 264);
+            this.txtAlbumInfo.TabIndex = 11;
             // 
             // label1
             // 
@@ -140,8 +140,9 @@
             this.btnRemove.TabIndex = 13;
             this.btnRemove.Text = "Remove Selected Album";
             this.btnRemove.UseVisualStyleBackColor = false;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,18 +150,17 @@
             this.ClientSize = new System.Drawing.Size(1281, 941);
             this.Controls.Add(this.btnRemove);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtAlbumInfo);
             this.Controls.Add(this.pctAlbumArt);
             this.Controls.Add(this.lstInventory);
             this.Controls.Add(this.btnAdd);
             this.Controls.Add(this.label4);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "frmMain";
             this.Text = "Songster";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.Enter += new System.EventHandler(this.btnAdd_Click);
             ((System.ComponentModel.ISupportInitialize)(this.pctAlbumArt)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -176,7 +176,7 @@
         private System.Windows.Forms.ColumnHeader colGenre;
         private System.Windows.Forms.PictureBox pctAlbumArt;
         private System.Windows.Forms.ColumnHeader colDate;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtAlbumInfo;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRemove;
     }

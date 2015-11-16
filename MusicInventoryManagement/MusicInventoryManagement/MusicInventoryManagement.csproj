@@ -96,11 +96,17 @@
     <Compile Include="frmAddNew.Designer.cs">
       <DependentUpon>frmAddNew.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmConfirm.cs">
+    <Compile Include="frmConfirmAlbum.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConfirm.Designer.cs">
-      <DependentUpon>frmConfirm.cs</DependentUpon>
+    <Compile Include="frmConfirmAlbum.Designer.cs">
+      <DependentUpon>frmConfirmAlbum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirmArtist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirmArtist.Designer.cs">
+      <DependentUpon>frmConfirmArtist.cs</DependentUpon>
     </Compile>
     <Compile Include="MusicInfo.cs" />
     <Compile Include="frmMain.cs">
@@ -114,11 +120,14 @@
     <EmbeddedResource Include="frmAddNew.resx">
       <DependentUpon>frmAddNew.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirmAlbum.resx">
+      <DependentUpon>frmConfirmAlbum.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmConfirm.resx">
-      <DependentUpon>frmConfirm.cs</DependentUpon>
+    <EmbeddedResource Include="frmConfirmArtist.resx">
+      <DependentUpon>frmConfirmArtist.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

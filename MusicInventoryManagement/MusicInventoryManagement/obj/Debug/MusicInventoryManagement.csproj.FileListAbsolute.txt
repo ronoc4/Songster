@@ -35,6 +35,7 @@ C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\Musi
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\FSharp.Core.xml
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\DiscogsNet.dll
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\bin\Debug\DiscogsNet.pdb
-C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmConfirm.resources
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmAddNew.resources
 C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmMain.resources
+C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmConfirmAlbum.resources
+C:\Users\RFM\Documents\GitHubVisualStudio\Songster\MusicInventoryManagement\MusicInventoryManagement\obj\Debug\MusicInventoryManagement.frmConfirmArtist.resources

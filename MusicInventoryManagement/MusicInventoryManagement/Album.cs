@@ -6,24 +6,27 @@ using System.Threading.Tasks;
 
 namespace MusicInventoryManagement
 {
-    class Album
+    public class Album
     {
         public string Artist { get; set; }
         public string Title { get; set; }
         public string Genre { get; set; }
-        public DateTime DateAdded { get; set; }
+        public string IdCode { get; set; }
         public string ImagePath { get; set; }
+        public string info { get; set; }
         public Album()
         {
-            DateAdded = DateTime.Now;
         }
 
 
-        public string ToString()
+        public string storageText()
         {
-            return string.Format("{0}|{1}|{2}|{3}|{4}", Artist, Title, Genre, DateAdded.ToShortDateString(), ImagePath);
+            return string.Format("{0}\t{1}\t{2}\t{3}\t{4}", IdCode, Artist, Title, Genre, ImagePath);
         }
 
-
+        public override string ToString()
+        {
+            return string.Format("{0} - {1}", Artist, Title);
+        }
     }
 }

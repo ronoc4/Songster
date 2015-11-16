@@ -1,6 +1,6 @@
 ﻿namespace MusicInventoryManagement
 {
-    partial class frmConfirm
+    partial class frmConfirmArtist
     {
         /// <summary>
         /// Required designer variable.
@@ -63,6 +63,7 @@
             this.btnOK.TabIndex = 2;
             this.btnOK.Text = "OK";
             this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
             // lbl1
             // 
@@ -91,18 +92,18 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Selected Artist Description";
             // 
-            // frmConfirm
+            // frmConfirmArtist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 487);
+            this.ClientSize = new System.Drawing.Size(600, 487);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtInfo);
             this.Controls.Add(this.lbl1);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.lstResults);
-            this.Name = "frmConfirm";
+            this.Name = "frmConfirmArtist";
             this.Text = "frmConfirm";
             this.Load += new System.EventHandler(this.frmConfirm_Load);
             this.ResumeLayout(false);

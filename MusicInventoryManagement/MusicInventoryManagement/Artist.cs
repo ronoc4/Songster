@@ -12,6 +12,7 @@ namespace MusicInventoryManagement
         public string Name { get; set; }
         public string Id { get; set; }
         public string Info { get; set; }
+        public List<Album> Discography { get; set; }
 
         public Artist()
         {

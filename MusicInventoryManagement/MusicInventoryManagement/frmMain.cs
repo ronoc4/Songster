@@ -14,30 +14,23 @@ namespace MusicInventoryManagement
 {
     public partial class frmMain : Form
     {
+
         public frmMain()
         {
             InitializeComponent();
         }
 #region GlobalVariables
         //Create dictionary of albums with int keys
-        Dictionary<int, Album> Albums = new Dictionary<int, Album>();
+        Dictionary<string, Album> Albums = new Dictionary<string, Album>();
         #endregion
 
+
+        public void setAlbum(Album album)
+        {
+            Albums.Add(album.IdCode,album);
+        }
 #region EventHandlers
         //Creating album object
-        private void btnAdd_Click(object sender, EventArgs e)
-        {
-
-            //Album toAdd = new Album();
-            //toAdd.Artist = txtArtist.Text;
-            //toAdd.Title = txtAlbum.Text;
-            //toAdd.ImagePath = addAlbumArt();
-
-            ////Adding new album to list of albums
-            //Albums.Add(Albums.Count, toAdd);
-            //UpdateList();
-
-        }
 
         private void lstInventory_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -97,19 +90,19 @@ namespace MusicInventoryManagement
         }
         #endregion
 
-#region Visualupdates
+        #region Visualupdates
 
         /// <summary>
         /// this method is used to display the album art of a selected album
         /// </summary>
         private void UpdateAlbumArt()
         {
-            if (lstInventory.SelectedIndices.Count > 0)
-            {
-                pctAlbumArt.ImageLocation = "";
-                int index = lstInventory.FocusedItem.Index;
-                pctAlbumArt.ImageLocation = Albums[index].ImagePath;
-            }
+            //if (lstInventory.SelectedIndices.Count > 0)
+            //{
+            //    pctAlbumArt.ImageLocation = "";
+            //    int index = lstInventory.FocusedItem.Index;
+            //    pctAlbumArt.ImageLocation = Albums[index].ImagePath;
+            //}
         }
 
         /// <summary>
@@ -126,14 +119,12 @@ namespace MusicInventoryManagement
                 ListViewItem row = new ListViewItem(album.Artist, 1);
                 row.SubItems.Add(album.Title);
                 row.SubItems.Add(album.Genre);
-                row.SubItems.Add(album.DateAdded.ToShortDateString());
-
                 lstInventory.Items.Add(row);
             }
         }
         #endregion
 
-#region IOMethods
+        #region IOMethods
 
         /// <summary>
         /// this method will return a filepath for the album art
@@ -168,10 +159,10 @@ namespace MusicInventoryManagement
             //Build a string for the loop
             StringBuilder sb = new StringBuilder();
 
-            foreach (var album in Albums)
+            foreach (KeyValuePair<string,Album> album in Albums)
             {
                 //Add new line with appendlne method, referencing Album class
-                sb.AppendLine(album.ToString());
+                sb.AppendLine(album.Value.storageText());
             }
 
             File.WriteAllText(fileName, sb.ToString());
@@ -212,7 +203,7 @@ namespace MusicInventoryManagement
                 line = sr.ReadLine();
                 //create an array of the elements on our string
                 //and split the string on the | char
-                string[] album = line.Split('|');
+                string[] album = line.Split('\t');
                 //initalize an album object to add
                 Album toAdd = new Album();
                 //set the elements of our string array
@@ -220,10 +211,9 @@ namespace MusicInventoryManagement
                 toAdd.Artist = album[0];
                 toAdd.Title = album[1];
                 toAdd.Genre = album[2];
-                toAdd.DateAdded = DateTime.Parse(album[3]);
                 toAdd.ImagePath = album[4];
                 //add this album to our dictionary
-                Albums.Add(key, toAdd);
+                Albums.Add(toAdd.IdCode, toAdd);
                 //add one to our key
                 key++;
             }
@@ -235,8 +225,13 @@ namespace MusicInventoryManagement
 
         private void checkNames(object sender, EventArgs e)
         {
-            frmAddNew frmAddNew = new frmAddNew();
+            frmAddNew frmAddNew = new frmAddNew(this);
             frmAddNew.ShowDialog();
+        }
+
+        private void btnRemove_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
